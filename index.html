@@ -2,15 +2,19 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cloud CI/CD - Ghada Najem</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>My Cloud CI/CD Site</h1>
-    <p><b>Name:</b> Ghada Mahmoud Najem</p>
-    <p><b>Course:</b> Cloud Computing</p>
-
-    <h2>What is CI/CD?</h2>
+    <div class="container">
+        <h1>My Cloud CI/CD Site</h1>
+        <p><b>Name:</b> Ghada Mahmoud Najem</p>
+        <p><b>Course:</b> Cloud Computing</p>
+        
+        <hr>
+        
+        <h2>What is CI/CD?</h2>
     <p>CI/CD stands for Continuous Integration and Continuous Deployment, a core practice in modern cloud computing. 
        Continuous Integration automates the process of merging and testing code changes to ensure stability. 
        Continuous Deployment then automatically delivers these updates to the hosting service. 
@@ -19,9 +23,9 @@
     <h2>My Pipeline</h2>
     <p>After I push my code to GitHub, a workflow is automatically triggered. 
        It runs on an Ubuntu machine to check if all files exist, and then deploys the site to GitHub Pages.</p>
-
-    <button id="btn">Click me</button>
-    <p id="msg"></p>
+        
+        <button id="actionButton">Click me!</button>
+    </div>
 
     <script src="script.js"></script>
 </body>
