@@ -7,8 +7,7 @@
 [span_2](start_span)This project demonstrates a simple **CI/CD (Continuous Integration and Continuous Deployment)** pipeline[span_2](end_span). [span_3](start_span)[span_4](start_span)It uses **GitHub Actions** to automate the build and deployment of a static website to **GitHub Pages**[span_3](end_span)[span_4](end_span).
 
 ## Live Website
-Once the deployment is successful, you can visit the site here:
-[span_5](start_span)[span_6](start_span)👉 **[رابط موقعك هنا بعد النشر]**[span_5](end_span)[span_6](end_span)
+Link: [Click here to view the site ](https://najemghada5-cell.github.io/cloud-beginner-cicd-pages-GhadaNajem/)
 
 ## Project Files
 * [span_7](start_span)`index.html`: Contains the website content, including my name and CI/CD explanations[span_7](end_span).
